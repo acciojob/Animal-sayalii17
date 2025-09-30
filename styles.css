@@ -1,1 +1,23 @@
-/*  your css code here. If applicable */
+
+#animal-photos{
+	padding: 20px;
+	background-color: gray;
+	width: 620px;
+	height: 500px;
+	border-radius: 10px;
+}
+h1{
+	text-align: center;
+	color: white;
+	font-family: arial;
+}
+.imgs{
+	display: flex;
+	flex-wrap: wrap;
+	padding: 10px;
+}
+img{
+	border-radius: 15px;
+	width: 150px;
+	height: 150px;
+}
